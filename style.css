@@ -1,0 +1,101 @@
+body{
+    background-color: wheat;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orangered;
+}
+.navbar{
+    background-color: chocolate;
+    justify-content: space-between;
+}
+.banner{
+    /* background-x: chocolate; */
+    padding: 10px 30px;
+    background-image: url('C:/Users/prathap/AppData/Local/Temp/36496f45-dd8f-40d2-98d5-9913631e20d6_Coffee Shop Website (1).zip.0d6/Coffee Shop Website/images/bc3.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo
+.d-flex{
+    margin: 20px 50px;
+}
+.home{
+    color: white;
+}
+.card{
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.card:hover{
+    box-shadow: 4px 4px 4px 4px grey;
+}
+.abouts{
+     margin: 50px 50px;
+     display: flex;
+     align-items: center;
+}
+.ul-list{
+    float: right;
+    list-style: none;
+}
+.li-list{
+    display: inline-block;
+    margin: 10px;
+}
+.li-list a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact{
+    margin: 40px;
+}
+.home{
+    margin: 50px 20px;
+}
+#container2{
+
+}
+.card-body{
+   text-align: center; 
+   color: chocolate;
+}
+.footer{
+    background-color: chocolate;
+    margin: 20px;
+    padding: 10px;
+}
+#about-btn{
+    padding: 10px 30px;
+    color: chocolate;
+    background: none;
+    border: 2px solid chocolate;
+}
+#blogbtn{
+    padding: 10px 60px;
+    background-color: chocolate;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.arrow{
+    float: right;
+    position: relative;
+    bottom: 150px;
+    right: 40px;
+}
+/* decstop-viwe */
+@media screen and(max-width:660px) {
+    .li-list{
+        display: block ;
+        background: chartreuse;
+        display: none;
+    }
+    .ul-list{
+        background-color: coral;
+    }
+}
